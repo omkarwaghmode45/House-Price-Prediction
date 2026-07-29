@@ -1,5 +1,5 @@
 import streamlit as st
-import pickle
+import joblib  
 import pandas as pd
 
 # Page configuration
@@ -191,8 +191,7 @@ with st.sidebar:
     st.info("Use the input form in the main panel to generate a price estimate.")
 
 # Load the trained model
-with open("models/random_forest.pkl", "rb") as file:
-    model = pickle.load(file)
+model = joblib.load("models/random_forest.pkl")
 
 st.markdown('<div class="main-header">California House Price Predictor</div>', unsafe_allow_html=True)
 st.markdown(
