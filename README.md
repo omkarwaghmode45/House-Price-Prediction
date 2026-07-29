@@ -200,8 +200,14 @@ House-Price-Prediction/
 
 ```bash
 git clone https://github.com/omkarwaghmode45/House-Price-Prediction.git
-```
+```  
+## 🚀 Live Demo
 
+https://house-price-prediction-2wr7yq5ix2nza7nnv9kxmq.streamlit.app/
+
+## 📂 GitHub Repository
+
+https://github.com/omkarwaghmode45/House-Price-Prediction
 ### Navigate to the project
 
 ```bash
